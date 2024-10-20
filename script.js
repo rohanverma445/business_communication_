@@ -41,12 +41,7 @@ $(document).ready(function(){
         loop: true
     });
 
-    var typed = new Typed(".typing-2", {
-        strings: ["Learner", "Developer", "Freelancer"],
-        typeSpeed: 70,
-        backSpeed: 30,
-        loop: true
-    });
+  
 
     // owl carousel script
     $('.carousel').owlCarousel({
@@ -124,20 +119,8 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
-    // Typing text animation
-    var typed = new Typed(".typing", {
-        strings: ["Learner", "Developer", "Freelancer"],
-        typeSpeed: 100,
-        backSpeed: 30,
-        loop: true
-    });
+  
 
-    var typed = new Typed(".typing-2", {
-        strings: ["Learner", "Developer", "Freelancer"],
-        typeSpeed: 70,
-        backSpeed: 30,
-        loop: true
-    });
 
     // Owl carousel script for extracurricular activities
     $('.carousel').owlCarousel({
